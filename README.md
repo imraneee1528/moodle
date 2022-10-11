@@ -21,7 +21,7 @@
  SET PASSWORD FOR 'root'@'localhost' = PASSWORD('B@ngladesh'); 
  sudo systemctl enable mysql
  
- #How to Install PHP 
+ # How to Install PHP 
  
 sudo apt-get install software-properties-common
 
