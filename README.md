@@ -17,8 +17,11 @@
  # Mysql password Set
  
  sudo mysql -u root –p
+ 
  USE mysql;
+ 
  SET PASSWORD FOR 'root'@'localhost' = PASSWORD('B@ngladesh'); 
+ 
  sudo systemctl enable mysql
  
  # How to Install PHP 
